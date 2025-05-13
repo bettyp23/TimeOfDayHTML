@@ -12,7 +12,7 @@ The JavaScript script runs automatically when the page loads and checks the curr
 
 The transition between background colors is smooth and animated for a better visual experience.
 
-**Live URL:** 
+**Live URL:** https://bettyp23.github.io/TimeOfDayHTML/
 
 Deployment was done using [GitHub Pages / InfinityFree / 000WebHost] (choose one and edit this line). The webpage loads correctly on both desktop and mobile devices.
 
