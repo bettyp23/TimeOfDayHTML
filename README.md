@@ -14,14 +14,8 @@ The transition between background colors is smooth and animated for a better vis
 
 **Live URL:** https://bettyp23.github.io/TimeOfDayHTML/
 
-Deployment was done using [GitHub Pages / InfinityFree / 000WebHost] (choose one and edit this line). The webpage loads correctly on both desktop and mobile devices.
-
 ## Design Choices
 
 - **Colors** were chosen to symbolically represent different times of the day.
 - **Centered layout** and simple text for clarity and readability.
 - **Minimal styling** was used to keep the focus on the dynamic behavior.
-
-## Known Issues
-
-- Time detection relies on the user's **local device time**, which
