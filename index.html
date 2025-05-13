@@ -1,8 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
     <!-- Tittle of the web page displayed -->
     <title>Basic HTML Page</title>
     <!-- Body where all visible content will go -->
+     <script>
+        window.onload = function() {
+            const hour = new Date().getHours();
+            let bgColor;
+
+            if (hour >= 6 && hour < 12){
+                bgColor = "#FFE4E1"; //Morning - Mistry Rose
+            } else if (hour >= 12 && hour < 18){
+                bgColor = "#ADD8E6"; //Afternoon - Light Blue
+            } else if (hour >= 18 && hour < 21){
+                bgColor = "#CD853F"; //Evening - Peru
+            } else {
+                bgColor = "#191970"; //Night - Midnight Blue
+            }
+
+            document.body.style.backgroundColor = bgColor;
+        }
+     </script>
+</head>
     <body>
         <!-- header with personal information -->
         <header>
@@ -12,7 +32,7 @@
         </header>
         <!-- Main content of webpage: hello world msg -->
         <main>
-            <p>Hello World. This is my first assignment for my web app summer class.</p>
+            <p>Welcome to my dynamic web page where I learned how to use Javascript code that changes the background color of the page depending on the current time!</p>
         </main>
     </body>
 </html>
